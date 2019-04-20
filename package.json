@@ -1,6 +1,6 @@
 {
   "name": "language-Mani",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds syntax highlighting for the Mani language to Atom.",
   "author": "Brayden Moon",
   "repository": {
