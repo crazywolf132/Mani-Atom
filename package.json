@@ -1,0 +1,24 @@
+{
+  "name": "language-Mani",
+  "version": "0.0.0",
+  "description": "Adds syntax highlighting for the Mani language to Atom.",
+  "author": "Brayden Moon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crazywolf132/Mani-Atom.git"
+  },
+  "homepage": "https://github.com/crazywolf132/Mani-Atom",
+  "bugs": {
+    "url": "https://github.com/crazywolf132/Mani-Atom/issues"
+  },
+  "keywords": [
+    "mani",
+    "language",
+    "syntax",
+    "grammar"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

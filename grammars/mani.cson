@@ -1,0 +1,79 @@
+'scopeName': 'source.mani'
+'name': 'Mani'
+'fileTypes': [
+  'mn'
+]
+'patterns': [
+  {
+    'begin': '/\\*'
+    'end': '\\*/'
+    'name': 'comment.block.mani'
+  }
+  {
+    'begin': '//'
+    'end': '$\\n?'
+    'name': 'comment.line.mani'
+  }
+  {
+    'begin': '\''
+    'end': '\''
+    'name': 'string.quoted.single.mani'
+  }
+  {
+    'begin': '"'
+    'end': '"'
+    'name': 'string.quoted.double.mani'
+  }
+  {
+    'match': '\\b(for|if|is|private|internal|this|else|return|class|super|while|let|load|#|say|fn|true|false|nil)\\b'
+    'name': 'keyword.reserved.mani'
+  }
+  {
+    'match': '\\b(if|return|else|otherwise|case|break|for|while|switch|continue)\\b'
+    'name': 'keyword.control.flow-control.mani'
+  }
+  {
+    'match': '\\b(true|false)\\b'
+    'name': 'string.boolean.mani'
+  }
+  {
+    'match': '\\#\\w+'
+    'name': 'meta.preprocessor.mani'
+  }
+  {
+    'match': '\\b[A-Z_]+\\b'
+    'name': 'entity.other.attribute-name.mani'
+  }
+  {
+    'match': '(-|\\.)?\\b[0-9]+(\\.[0-9]+)?\\b'
+    'name': 'constant.numeric.mani'
+  }
+  {
+    'match': '(\\w|[\\+|-|\\*|/|%|=|!|\\^|~|\\||\\?|\\<|\\>|\\&])+(?=\\s*\\()'
+    'name': 'support.function.mani'
+  }
+  {
+    'match': '\\+|-|\\*|/|%|=|!|\\^|~|\\||\\?|\\<|\\>|\\&'
+    'name': 'keyword.operator.mani'
+  }
+  {
+    'match': '[<>]?[\\.]{1,3}[<>]?'
+    'name': 'keyword.operator.range.mani'
+  }
+  {
+    'match': '\\w+(?=\\s*:)'
+    'name': 'variable.other.mani'
+  }
+  {
+    'match': '(?<=\\w\\.)\\w+(?=\\.|\\s|,|;|\\)|\\?|\\+|\\-|=)'
+    'name': 'support.constant.mani'
+  }
+  {
+    'match': '\\b([A-Z])\\w+\\b'
+    'name': 'entity.name.type.class.mani'
+  }
+  {
+    'match': '\\w'
+    'name': 'variable.other.mani'
+  }
+]
