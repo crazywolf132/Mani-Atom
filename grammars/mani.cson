@@ -25,7 +25,7 @@
     'name': 'string.quoted.double.mani'
   }
   {
-    'match': '\\b(for|if|is|private|internal|this|else|return|class|super|while|let|load|#|say|fn|true|false|nil)\\b'
+    'match': '\\b(for|if|is|private|internal|this|else|return|class|super|while|let|load|nameset|#|say|fn|true|false|nil)\\b'
     'name': 'keyword.reserved.mani'
   }
   {
