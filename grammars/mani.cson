@@ -29,7 +29,7 @@
     'name': 'keyword.reserved.mani'
   }
   {
-    'match': '\\b(if|return|else|otherwise|case|break|for|while|switch|continue)\\b'
+    'match': '\\b(if|return|else|otherwise|case|break|for|while|switch|continue|default)\\b'
     'name': 'keyword.control.flow-control.mani'
   }
   {
